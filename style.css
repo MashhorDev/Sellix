@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Space+Grotesk:wght@700&display=swap');
+
+.Cards {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 15% 0px;
+    
+      
+  
+}
+.card {
+    background-color: #27293d;
+    width: 300px;
+    height: 320px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 30px 50px; 
+    overflow: hidden;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    box-shadow:0 0 50px #000000;
+    transition: 0.5s;
+
+
+}
+img {
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+button {
+    color: antiquewhite;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #6f1a80;
+    height: 65px;
+    width: 300px;
+    cursor: pointer;
+    border: 0px;
+    margin: 20px 0px;
+    transition: 0.5s;
+}
+button:hover {
+    background-color: #ff01c0;
+    transition: 0.5s;
+    box-shadow:0 0 100px #000000;
+}
+h1 {
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 3%;
+    color: azure;
+}
+p {
+    color: #ff01c0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    z-index: 120;
+
+
+
+}
+.price {
+    font-family: 'Kanit', sans-serif;
+    color: rgba(255, 255, 255, 0.418);
+    padding: 42%;
+    margin: 20px 0px;
+}
+.Name {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.White {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    
+
+
+}
+.Blue {
+    font-family: 'Kanit', sans-serif;
+    color: #0199ff;
+    
+}
+.back {
+    height: 170vh;
+    width: 100%;
+  
+    background-color: #161620;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #161620;
+
+  }
+.light {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -130%;
+    left: 0%;
+    box-shadow:0 0 1000px #0199ff;
+    animation: wave 5s infinite ease-in-out alternate-reverse;
+}
+@keyframes wave {
+    from {
+        top: -130%;
+        left: 0%;
+        border-radius: 0%;
+
+    
+    }
+    to {
+        transition: 1s;
+        top: -150%;
+        border-radius: 50%;
+    
+    }
+}
+
+.Dis a {
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aqua;
+    position: fixed;
+    top: 2%;
+    right: 100px;
+    text-decoration: none;
+    transition: 0.5s;
+    z-index: 1;
+}
+.Dis h4{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(62, 255, 255);
+    position: fixed;
+    bottom:0 ;
+    background-color: #610059;
+    width: 350%;
+    height: 5%;
+    left: 0;
+    padding-left: 2%;
+    z-index: 120;
+    margin-bottom: -10px;
+    box-shadow:0 0 1000px #000000;
+    
+    
+}
