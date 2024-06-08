@@ -7,7 +7,7 @@ Welcome to the Sellix Store Web Page repository! This project contains the sourc
 - [Introduction](#introduction)
 - [Features](#features)
 - [Contributing](#contributing)
-- [Contact](#contact)
+- [Screenshot](#Screenshot)
 
 ## Introduction
 
