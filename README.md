@@ -13,6 +13,11 @@ Welcome to the Sellix Store Web Page repository! This project contains the sourc
 
 This repository hosts the code for a web page built to showcase and sell products from a Sellix store. Sellix is an e-commerce platform that allows you to sell digital products, subscriptions, services, and physical goods easily. This web page provides an attractive and user-friendly interface for customers to browse and purchase items.
 
+
+## Screenshot
+
+![Screenshot of the application](https://raw.githubusercontent.com/MashhorDev/Sellix/main/Screenshot_73.png)
+
 ## Features
 
 - **Product Listing**: Display all products available in your Sellix store.
